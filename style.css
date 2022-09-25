@@ -1,0 +1,254 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/*.back-img {
+    min-height: 100vh;
+    background-image: url(female-doctor-png-holding-syringe_53876-105085.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back-img::after{
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(208, 211, 212, .6);
+}*/
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans', sans-serif;
+    position: relative;
+}
+
+.wrapper{
+    display: flex;
+    padding: 2% 8%;
+}
+
+.menu{
+    flex: 1;
+    float: right;
+    text-align: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 2% 8%;
+    line-height: 80px;
+    position: sticky;
+    position: -web-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 2px solid  #ee6983;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float : left;
+}
+
+nav ul li a {
+    color: #ee6983;
+    font-weight: bold;
+    text-align: right;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.column {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.column .description {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color :#ee6983;
+    position: relative;
+}
+
+.column .desc {
+    font-size: 20px;
+    font-family: 'comic sans ms';
+    color :#ee6983;
+    position: relative;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color:#ee6983;
+    width: 100%;
+    line-height: 50px;
+    position: relative;
+}
+
+a.tbl-pink {
+    background: #ff9494;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color:#FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #850e35;
+    text-decoration: none;
+}
+
+a.view-pink {
+    background: #ff9494;
+    border-radius: 20px;
+    font-family: 'comic sans ms';
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color:#FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.view-pink:hover {
+    background: #850e35;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.layan{
+    margin: 0px 0px 30px 0px;
+}
+
+.row{
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    flex-direction: row;
+}
+
+.footer{
+    background-color: #efefef;
+    padding: 70px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ee6983;
+    text-transform: capitalize ;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: -10;
+    background-color: #850e35;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ee6983;
+    text-decoration: none;
+    display: block;
+    font-weight: 300;
+    color:#ee6983;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color:#850e35;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #ff9494;
+    margin: 0px 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #850e35;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color : #790252;
+    background-color: #850e35;
+}
+
+@media(max-width: 767px){
+    footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+
+    }
+}
+
+@media(max-width: 767px){
+    footer-col {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
